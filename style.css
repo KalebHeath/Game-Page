@@ -1,0 +1,34 @@
+  
+            body{
+                background-color: #93a3ff;  
+                font-family: Helvetica;
+            }
+            
+            .jumbotron {
+              background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9DEveF7FWmzmz1eU_CxIZWz_0fz9VpM9jsAWvNa6NlxmLAOBv3A&s")
+              
+          }
+            
+           
+            #css {
+                font-style: italic;
+                color: #BB00CC;
+            }
+            
+            p {
+                font-size: 18px;
+            }
+            
+            canvas {
+                border: 1px solid black;
+                background-color: white;
+            }
+            .profilePic {
+                border-style:solid;
+                padding:3px;
+                margin:20px;
+            }
+            
+            .jumbotron h1 {
+                Color: #ff7070;
+            }
