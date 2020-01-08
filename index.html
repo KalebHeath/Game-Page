@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <title>My BootStrap Project</title>
+                <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="jumbotron">
+                <h1>Game Page</h1>
+            </div>
+            <nav class="navbar navbar-inverse">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#links" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span> <!-- only appears for screen readers -->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Menu</a>
+            </div>
+        
+            <div class="collapse navbar-collapse" id="links">
+                <ul class="nav navbar-nav">
+                   <li class="active"><a href="index.html">Home</a></li>
+                   <li><a href="page2.html">Rules and information<span class="sr-only">(current)</span></a></li>
+                    <li><a href="page3.html">Contact information</a></li>
+                </ul> 
+            </div>
+            </nav>
+            <div class="row">
+                <div class="col-md-6" style="background-color:#aba;">
+                    <h2>Dice</h2>
+                    <p>Some text..</p>
+                    <a onclick="dice()" class="btn btn-primary">start</a>
+                    
+                    <p id ='diceOutput'></p>
+                </div>
+            <div class="col-md-6" style="background-color:#bba;">
+            <label>Type rock, paper, or scissors and click the play button:</label> <input id ='userinput'><br>
+                <br> <h2>Rock Paper Scissors</h2>
+                <p>Some text..</p>
+                <a onclick="RPS()" class="btn btn-primary">start</a>
+                <p id='userOutput'></p>
+                <p id='computerOutput'></p>
+                <p id='rpsOutput'></p>
+            </div>  
+        </div>
+    <script src ='dice.js'></script>
+    <script src ='rps.js'></script>
+    </body>
+</html>
